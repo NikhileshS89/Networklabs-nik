@@ -1,8 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
-
-# give me 1 md file
-
-Here is a single consolidated Markdown lab file you can save as `linux-network-advanced-lab.md`:
 
 ```markdown
 # Advanced Linux Network Lab: Bridges, NAT, Policy Routing, VXLAN
@@ -435,5 +430,5 @@ sudo ip link del br0
 Run cleanup only when you are sure you no longer need the lab state.
 ```
 
-You can save this as a single `.md` file and convert or version-control it as you prefer.
+
 
