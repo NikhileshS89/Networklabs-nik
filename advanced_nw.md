@@ -82,6 +82,12 @@ sudo ip netns exec host3 ip addr add 192.168.10.13/24 dev veth3h
 
 ```
 
+  # 1. Load the bridge filter module
+    sudo modprobe br_netfilter
+
+  # 2. Now run the command again
+  sudo sysctl -w net.bridge.bridge-nf-call-iptables=0
+
 5. Test connectivity:
 
 ```
